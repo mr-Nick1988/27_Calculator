@@ -13,7 +13,7 @@ public class CalculatorAppl {
             String operation = args[2];
 
 
-            String operationClassName = operation.substring(0, 1).toUpperCase()
+          String operationClassName = operation.substring(0, 1).toUpperCase()
                     + operation.substring(1).toLowerCase();
 
             String fullClassName = "telran.dao.impl." + operationClassName;
