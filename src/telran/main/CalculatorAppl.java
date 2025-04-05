@@ -12,7 +12,7 @@ public class CalculatorAppl {
     private static final Map<String, Operation> operations = new HashMap<>();
 
     static {
-        //here you can add your method
+         //here you can add your method
         registerOperation(new Add());
         registerOperation(new Subtract());
     }
